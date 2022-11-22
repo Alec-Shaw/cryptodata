@@ -25,7 +25,7 @@ export const cryptoApi = createApi({
         query: (coinId) => createRequest(`/tickers/${coinId}`),
       }),
       getCryptoHistory: builder.query({  
-        query: ({coinId, timePeriod}) => createRequest(`/tickers/${coinId}/historical?start=2021-11-20&interval=${timePeriod}`),
+        query: ({coinId, timePeriod}) => createRequest(`/tickers/${coinId}/historical?start=2022-01-01&interval=${timePeriod}`),
       }),
       getCryptoExchange: builder.query({  
         query: () => createRequest(`/exchanges`),
