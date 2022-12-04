@@ -1,1 +1,1 @@
-https://cryptodata-alec-shaw.netlify.app/
+https://cryptodata-alec-shaw.netlify.app
