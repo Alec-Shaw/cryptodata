@@ -69,7 +69,6 @@ const CryptoDetails = () => {
               ))}
             </Col>
           </Col>
-        
        </Col>
   )
 }
